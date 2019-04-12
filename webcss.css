@@ -1,0 +1,51 @@
+body
+{
+    color: #f2efe2;
+    font-size: 16px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+#div{
+    align-content: center;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-right: 50px;
+    border: solid 5px grey;
+    padding: 50px
+}
+
+.shadowbox {
+  width: 50em;
+  border: 1px solid #333;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg,#1e2440 , #ddd 150%, #ccc);
+}
+
+.btn
+{
+    margin-top: 50px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+.btn:hover
+ {
+        color:white;
+        background:#1e2440;
+        text-decoration-color:;
+}
+
+<style>
+  .speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
+  .speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
+  .speech img {float: right; width: 40px }
+</style>
